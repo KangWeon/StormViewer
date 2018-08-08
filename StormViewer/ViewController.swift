@@ -14,14 +14,16 @@ class ViewController: NSViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        NSLog("%@", #function)
+        
     }
 
     override var representedObject: Any? {
         didSet {
-        // Update the view, if already loaded.
+            // Update the view, if already loaded.
+            NSLog("%@", #function)
         }
     }
-
 
 }
 
