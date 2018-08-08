@@ -30,8 +30,6 @@ class SourceViewController: NSViewController {
                 pictures.append(item)
             }
         }
-        
-        tableView.selectRowIndexes(IndexSet(integer: 0), byExtendingSelection: false)
     }
     
 }

@@ -25,11 +25,7 @@ class DetailViewController: NSViewController {
     }
     
     func imageSelected(name: String) {
-        if imageView == nil {
-            imageView = NSImageView(frame: NSRect(origin: self.view.frame.origin, size: self.view.frame.size))
-            
-            self.view.addSubview(imageView)
-        }
+        
         imageView.image = NSImage(named: NSImage.Name(name))
     }
     
